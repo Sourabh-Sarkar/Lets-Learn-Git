@@ -48,7 +48,7 @@ public class Tutorial_Modify {
 			                		  carname.getAttributes().getNamedItem("type").getTextContent().equalsIgnoreCase("formula one")) 
 			                     eElement.setTextContent("Lamborigini 001");
 			                  
-			                  if("Ferrari 202".equals(eElement.getTextContent()))
+			                  if("Ferrari 202".equals(eElement.getTextContent()) || carname.getAttributes().getNamedItem("type").getTextContent().equalsIgnoreCase("sports"))
 			                     eElement.setTextContent("Lamborigini 002");
 			               }
 				}
